@@ -14,13 +14,13 @@ module.exports = {
         // 预处理器 Loader scss全局变量注入
         // loaderOptions: {
         //     sass: {
-        //         data: '@import "./DTMillerAppsPublic/styles/index.scss";'
+        //         data: '@import "./"'
         //     }
         // }
     },
     // 开发环境代理
     devServer: {
-        // proxy: 'https://stdsit.dtmiller.com',
+        // proxy: '',
     },
     lintOnSave: undefined
 };
