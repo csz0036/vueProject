@@ -14,13 +14,13 @@ module.exports = {
         // 预处理器 Loader scss全局变量注入
         // loaderOptions: {
         //     sass: {
-        //         data: '@import "./"'
+        //         data: '@import "./scr/style.css"'
         //     }
         // }
     },
     // 开发环境代理
     devServer: {
-        // proxy: '',
+        // proxy: 'http:192.168.0.1',
     },
     lintOnSave: undefined
 };
